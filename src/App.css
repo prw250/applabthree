@@ -7,8 +7,25 @@
   height: 40vmin;
   pointer-events: none;
 }
+h1 {
+  color: rgb(197, 163, 219);
+}
 
-.App-header {
+img {
+  border: 1rem solid pink;
+}
+
+.blue-border {
+  border: 1rem dashed lightblue;
+}
+p{
+  width: 500px;
+  margin: auto;
+  border: 1rem solid transparent;
+  color: grey;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,7 +34,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
